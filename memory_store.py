@@ -9,7 +9,7 @@ DB_PATH = "faiss_index"
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
-
+#load
 
 def load_db():
     if os.path.exists(DB_PATH):
